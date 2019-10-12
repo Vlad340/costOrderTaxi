@@ -1,18 +1,18 @@
 public class Trip {
-    private long distance;
+    long amount;
 
     public long calculationAmount(long distance) {
-        private int oneHundredPercent = 100;
+        int oneHundredPercent = 100;
 
         if (distance == 0) {
-            return;
+            return 0;
         }
         Tariff tariff = new Tariff();
         long amount = tariff.landingPrice + tariff.tripPrice * distance;
         if (amount <= tariff.amountToCalculateDiscount) {
             return amount;
         }
-        private long discount = tariff.discount*amount/oneHundredPercent;
+        long discount = tariff.discount*amount/oneHundredPercent;
         if (discount > tariff.maximumAmountDiscount) {
             discount = tariff.maximumAmountDiscount;
         }

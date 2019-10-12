@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Tariff tariff = new Tariff();
-
+        Trip trip = new Trip();
+        System.out.println(trip.calculationAmount(25));
     }
 }
