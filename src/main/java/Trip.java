@@ -16,7 +16,7 @@ public class Trip {
         if (discount > tariff.maximumAmountDiscount) {
             discount = tariff.maximumAmountDiscount;
         }
-        amount = -discount;
+        amount -=discount;
         return amount;
     }
 }
