@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46523cbc-43ed-4a5e-b646-e6e847774f48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="46523cbc-43ed-4a5e-b646-e6e847774f48" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570878758417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Codecov badge added">
+      <created>1570879395313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570879395313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,7 +164,8 @@
     <MESSAGE value="Travis CI config added" />
     <MESSAGE value="Travis CI badge added" />
     <MESSAGE value="rename and changed .travis.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename and changed .travis.yml" />
+    <MESSAGE value="Codecov badge added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codecov badge added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/costOrderTaxi$Main.ic" NAME="Main Coverage Results" MODIFIED="1570867764126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
