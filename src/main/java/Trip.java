@@ -1,5 +1,4 @@
 public class Trip {
-    long amount;
 
     public long calculationAmount(long distance) {
         int oneHundredPercent = 100;
