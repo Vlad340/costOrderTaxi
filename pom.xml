@@ -41,12 +41,15 @@
                             <goal>check</goal>
                         </goals>
                         <configuration>
-                            <includes>
+<!--                            <includes>
                                 <include>**/*Service.class</include>
                             </includes>
-                            <rules>
+    -->                        <rules>
                                 <rule>
                                     <element>CLASS</element>
+                                    <excludes>
+                                        <exclude>Main</exclude>
+                                    </excludes>
                                     <limits>
                                         <limit>
                                             <counter>LINE</counter>
@@ -65,9 +68,9 @@
                             <goal>report</goal>
                         </goals>
                         <configuration>
-                            <includes>
+ <!--                           <includes>
                                 <include>**/*Service.class</include>
-                            </includes>
+                            </includes>-->
                         </configuration>
                     </execution>
                 </executions>
