@@ -4,5 +4,5 @@ jdk: openjdk8
 script:
   - mvn clean package
   - mvn -e verify
-  after_success:
-    - bash <(curl -s https://codecov.io/bash)
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
