@@ -1,4 +1,4 @@
-public class Trip {
+public class TripService {
 
     public long calculationAmount(long distance) {
         int oneHundredPercent = 100;
@@ -6,7 +6,7 @@ public class Trip {
         if (distance == 0) {
             return 0;
         }
-        Tariff tariff = new Tariff();
+        TariffService tariff = new TariffService();
         long amount = tariff.landingPrice + tariff.tripPrice * distance;
         if (amount <= tariff.amountToCalculateDiscount) {
             return amount;
