@@ -6,7 +6,7 @@ public class TariffService {
     long maximumAmountDiscount;
 
     public TariffService() {
-        this.landingPrice = 60_00L;;
+        this.landingPrice = 60_00L;
         this.tripPrice = 20_00L;
         this.amountToCalculateDiscount = 1_000_00L;
         this.discount = 5;
